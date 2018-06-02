@@ -18,4 +18,5 @@ npm run build
 npm run build --report
 ```
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+用vue-cli搭建的一个单页面应用，接口全是通过webpack ajax跨域请求的华为应用市场的接口；
+下载后安装好依赖启动server就可以看到所有页面~
