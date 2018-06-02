@@ -1,0 +1,18 @@
+.vertical-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.nowrap{
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+@mixin text-overflow($n) {
+	overflow : hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: $n;
+	-webkit-box-orient: vertical;
+}

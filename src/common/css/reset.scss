@@ -1,0 +1,119 @@
+a, address, b, big, blockquote, body, center, cite, code, dd, del, div, dl, dt, em, fieldset, font, form, h1, h2, h3, h4, h5, h6, html, i, iframe, img, ins, label, legend, li, ol, p, pre, small, span, strong, u, ul, var {
+  margin: 0;
+  padding: 0;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+  display: block;
+}
+
+hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+}
+button,input{
+  -webkit-appearance:none;
+  border-radius: 0;
+}
+button[disabled], html input[disabled] {
+  cursor: default;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+img {
+  display: block;
+  width: 100%;
+  border: 0;
+  vertical-align: top;
+}
+
+em, i, u {
+  font-style: normal;
+}
+
+html, body, div, span, applet, object, iframe, caption,
+tfoot, thead, th, del, dfn, em, font, img, ins,
+kbd, q, s, samp, small, strike, sub, sup, tt, var,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr,
+acronym, address, big, cite, code, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend {
+  vertical-align: baseline;
+  font-family: inherit;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  outline: 0;
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+caption, th, td {
+  font-weight: normal;
+  text-align: left;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: "";
+}
+
+blockquote, q {
+  quotes: "";
+}
+
+a {
+  color: #666;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+}
+html{
+  font-size: 100px;
+}
+body {
+  font: 0.24rem "Microsoft Yahei",Arial,Verdana,"\5b8b\4f53";
+  color: #666;
+  background: #fff;
+  -webkit-tap-highlight-color: transparent;
+}
+input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
+    background-color:#fff;
+    background-image: none;
+    color: rgb(0, 0, 0);
+    box-shadow:100px 100px 100px #fff inset;
+
+}
+input:disabled{
+  -moz-user-select: -moz-none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+input{
+  autocomplete:off;
+}
+img{
+  width:100%;
+}
+select{
+  background:#fff;
+}
+*{
+  box-sizing:border-box;
+}
